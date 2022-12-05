@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+*{
+	padding: 0;
+	margin: 0;
+}
+body {
+	background: url(../img/fondo.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	min-height: 100vh;
+}
+h1, p {
+	color: red;
+	text-align: center;
+	font-family: "Rowdies", cursive;
+}
+.timeline {
+	display: flex;
+	font-family: "Open Sans", sans-serif;
+	font-size: 20px;
+	flex-flow: column;
+	list-style: none;
+	width: fit-content;
+	border-left: 5px solid red;
+	float: right;
+	margin: 0 auto;
+	padding: 0;
+}
+li {
+	margin: 10px;
+	background: #fff;
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 5px 5px;
+}
+time {
+	font-weight: bold;
+}
